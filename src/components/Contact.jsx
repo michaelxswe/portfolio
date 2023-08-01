@@ -18,10 +18,10 @@ const Contact = () => {
           className='mt-3 text-secondary text-[17px] max-w-3xl leading-[30px]'
         >
           <div>
-          Email: michaelxswe@gmail.com
+          Email: mikexswe@gmail.com
           </div>
           <div>
-          Phone: (917)520-5546
+          LinkedIn: linkedin.com/in/mikexswe
           </div>
         </motion.p>
       </div>

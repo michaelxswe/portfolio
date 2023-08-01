@@ -5,7 +5,8 @@ import {
   graph,
   time,
   generator,
-  crypto
+  crypto,
+  ishop
 } from '../assets/index';
 
 export const navLinks = [
@@ -49,14 +50,27 @@ const interests = [
 const experiences = [
   {
     title: 'Software Engineer Intern',
+    company_name: 'Symetra',
+    icon: time,
+    iconBg: '#383E56',
+    date: 'May 2023 - August 2023',
+    points: [
+      'Created backend APIs using FastAPI',
+      'Performed unit, integration, and Cucumber testing to ensure application quality',
+      'Created AWS CloudFormation template to deploy containers on AWS Fargate',
+      'Implemented Azure pipelines for maximum development and deployment efficiency',
+    ],
+  },
+  {
+    title: 'Software Engineer Intern',
     company_name: 'Lockheed Martin',
     icon: time,
     iconBg: '#383E56',
     date: 'Jun 2022 - Aug 2022',
     points: [
-      'Developed and implemented multiple firmware components for a filtration system',
-      'Implemented a MySQL database to analyze the performance of a filtration system under diverse process parameters',
-      'Developed Python scripts to automate the data collection process for the filtration system',
+      'Assisited in designing, implementing, and maintaining databases',
+      'Optimized SQL queries to exatrct relevant information',
+      'Presented data finding to stakeholders',
     ],
   },
   {
@@ -66,28 +80,44 @@ const experiences = [
     iconBg: '#383E56',
     date: 'Aug 2021 - Dec 2021',
     points: [
-      'Served as a resource for students taking CS240 (Data Structures and Algorithms)',
-      'Hold weekly in-person office hours to address any questions students may have about the course material',
+      'Served as a TA for students taking CS240 (Data Structures and Algorithms)',
+      'Hold weekly in-person office hours to address any questions students may have about the course',
     ],
-  },
-  {
-    title: 'Math Tutor',
-    company_name: 'Startline Academy',
-    icon: time,
-    iconBg: '#383E56',
-    date: 'Dec 2019 - Feb 2020',
-    points: [
-      'Develop lesson plans that are customized to the specific needs of each student',
-      'Evaluated and documented each student’s progress',
-    ],
-  },
+  }
 ]
 
 const projects = [
   {
+    name: 'ishop Backend API',
+    description:
+      'Backend API for a shopping website, perform CRUD operations against a postgres database using FastAPI and SQLAlchemy',
+    tags: [
+      {
+        name: 'FastAPI',
+        color: 'green-text-gradient',
+      },
+      {
+        name: 'SQLAlchemy',
+        color: 'pink-text-gradient',
+      },
+      {
+        name: 'Postgres',
+        color: 'blue-text-gradient',
+      },
+
+      {
+        name: 'AWS',
+        color: 'yellow-text-gradient',
+      },
+    ],
+    image: ishop,
+    web_link: 'http://3.17.10.48/docs',
+    github_link: 'https://github.com/michaelxswe/ishop',
+  },
+  {
     name: 'OpenAI Image Generator',
     description:
-      ' a full stack application that allow users to generate an image which closely matches their input description',
+      'A full stack application that that utilizes OpenAI API to generate AI Images based on user prompts',
     tags: [
       {
         name: 'MongoDB',
@@ -108,7 +138,7 @@ const projects = [
       },
     ],
     image: generator,
-    source_code_link: 'https://openai-image-generator-mx.netlify.app/',
+    web_link: 'https://openai-image-generator-mx.netlify.app',
     github_link: 'https://github.com/michaelxswe/openai-image-generator',
   },
   {
@@ -127,7 +157,7 @@ const projects = [
       },
     ],
     image: crypto,
-    source_code_link: 'https://cryptocurrency-mx.netlify.app/',
+    web_link: 'https://cryptocurrency-mx.netlify.app',
     github_link: 'https://github.com/michaelxswe/cryptocurrency',
   },
 ]
