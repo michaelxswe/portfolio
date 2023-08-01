@@ -57,7 +57,7 @@ const experiences = [
     points: [
       'Created backend APIs using FastAPI',
       'Performed unit, integration, and Cucumber testing to ensure application quality',
-      'Created AWS CloudFormation template to deploy containers on AWS Fargate',
+      'Created AWS CloudFormation templates to deploy containers to AWS Fargate',
       'Implemented Azure pipelines for maximum development and deployment efficiency',
     ],
   },
@@ -70,7 +70,7 @@ const experiences = [
     points: [
       'Assisited in designing, implementing, and maintaining databases',
       'Optimized SQL queries to exatrct relevant information',
-      'Presented data finding to stakeholders',
+      'Presented data findings to my team',
     ],
   },
   {
@@ -90,7 +90,7 @@ const projects = [
   {
     name: 'ishop Backend API',
     description:
-      'Backend API for a shopping website, perform CRUD operations against a postgres database using FastAPI and SQLAlchemy',
+      'Backend API for a shopping website. Implemented CRUD operations against a Postgres using FastAPI and SQLAlchemy',
     tags: [
       {
         name: 'FastAPI',
@@ -117,7 +117,7 @@ const projects = [
   {
     name: 'OpenAI Image Generator',
     description:
-      'A full stack application that that utilizes OpenAI API to generate AI Images based on user prompts',
+      'A full stack application that utilizes OpenAI API to generate AI Images based on user prompts',
     tags: [
       {
         name: 'MongoDB',
