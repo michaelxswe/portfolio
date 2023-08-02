@@ -55,10 +55,10 @@ const experiences = [
     iconBg: '#383E56',
     date: 'May 2023 - August 2023',
     points: [
-      'Created backend APIs using FastAPI',
+      'Built REST API using FastAPI',
       'Performed unit, integration, and Cucumber testing to ensure application quality',
-      'Created AWS CloudFormation templates to deploy containers to AWS Fargate',
-      'Implemented Azure pipelines for maximum development and deployment efficiency',
+      'Created AWS CloudFormation templates to deploy applications to AWS Fargate',
+      'Created Azure pipelines for CI/CD  to maximize development and deployment efficiency',
     ],
   },
   {
@@ -68,9 +68,9 @@ const experiences = [
     iconBg: '#383E56',
     date: 'Jun 2022 - Aug 2022',
     points: [
-      'Assisited in designing, implementing, and maintaining databases',
-      'Optimized SQL queries to exatrct relevant information',
-      'Presented data findings to my team',
+      'Assisted in creating a frontend for a Project Management System using React and Bootstrap',
+      'Built a backend for a Project Management System using FastAPI',
+      'Crafted SQL queries to extract relevant information from databases',
     ],
   },
   {
@@ -90,7 +90,7 @@ const projects = [
   {
     name: 'ishop Backend API',
     description:
-      'Backend API for a shopping website. Implemented CRUD operations against a Postgres using FastAPI and SQLAlchemy',
+      'Backend API for a shopping website. Utilizing FastAPI and SQLAlchemy as the ORM to enable seamless CRUD operations with a PostgreSQL database',
     tags: [
       {
         name: 'FastAPI',
@@ -101,14 +101,10 @@ const projects = [
         color: 'pink-text-gradient',
       },
       {
-        name: 'Postgres',
+        name: 'PostgreSQL',
         color: 'blue-text-gradient',
       },
 
-      {
-        name: 'AWS',
-        color: 'yellow-text-gradient',
-      },
     ],
     image: ishop,
     web_link: 'http://3.17.10.48/docs',
@@ -117,7 +113,7 @@ const projects = [
   {
     name: 'OpenAI Image Generator',
     description:
-      'A full stack application that utilizes OpenAI API to generate AI Images based on user prompts',
+      'A full stack application that utilizes OpenAI API to generate AI Images based on user prompts. Featuring creating and posting your favorit images',
     tags: [
       {
         name: 'MongoDB',
@@ -144,7 +140,7 @@ const projects = [
   {
     name: 'Cryptocurrency',
     description:
-      'A web application for accessing comprehensive, up-to-date pricing data for a broad range of cryptocurrencies',
+      'A web application for accessing up-to-date pricing data for a broad range of cryptocurrencies through integration with CoinGecko API',
     tags: [
       {
         name: 'React',
