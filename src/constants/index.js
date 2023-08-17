@@ -30,7 +30,7 @@ export const navLinks = [
 
 const interests = [
   {
-    title: 'Web Developer',
+    title: 'Frontend Developer',
     icon: web,
   },
   {
@@ -42,7 +42,7 @@ const interests = [
     icon: database,
   },
   {
-    title: 'Data Scientist',
+    title: 'Data Analyst',
     icon: graph,
   },
 ]
@@ -55,10 +55,11 @@ const experiences = [
     iconBg: '#383E56',
     date: 'May 2023 - August 2023',
     points: [
-      'Built REST API using FastAPI',
+      'Designed and implemented REST API leveraging FastAPI',
       'Performed unit, integration, and Cucumber testing to ensure application quality',
-      'Created AWS CloudFormation templates to deploy applications to AWS Fargate',
-      'Created Azure pipelines for CI/CD  to maximize development and deployment efficiency',
+      'Leveraged Docker Containers to ensure environment compatibility',
+      'Created AWS CloudFormation templates for streamlined deployments to AWS Fargate',
+      'Orchestrated Azure CI/CD pipelines, enhancing the agility and efficiency of development and deployment cycles',
     ],
   },
   {
@@ -68,9 +69,10 @@ const experiences = [
     iconBg: '#383E56',
     date: 'Jun 2022 - Aug 2022',
     points: [
-      'Assisted in creating a frontend for a Project Management System using React and Bootstrap',
-      'Built a backend for a Project Management System using FastAPI',
-      'Crafted SQL queries to extract relevant information from databases',
+      'Collaborated in the development of a frontend for a Project Management System utilizing React and Bootstrap',
+      'Developed a backend for a Project Management System leveraging Express',
+      'Designed and implemented a MySQL database to support the Project Management System',
+      'Acquired hands-on experience in crafting SQL queries'
     ],
   },
   {
@@ -80,7 +82,7 @@ const experiences = [
     iconBg: '#383E56',
     date: 'Aug 2021 - Dec 2021',
     points: [
-      'Served as a TA for students taking CS240 (Data Structures and Algorithms)',
+      'Served as a resource for students taking the course - Data Structures and Algorithms',
       'Hold weekly in-person office hours to address any questions students may have about the course',
     ],
   }
