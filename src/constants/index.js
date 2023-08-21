@@ -70,8 +70,7 @@ const experiences = [
     date: 'Jun 2022 - Aug 2022',
     points: [
       'Collaborated in the development of a frontend for a Project Management System utilizing React and Bootstrap',
-      'Developed a backend for a Project Management System leveraging Express',
-      'Designed and implemented a MySQL database to support the Project Management System',
+      'Developed a backend for a Project Management System leveraging Spring Boot and MySQL database',
       'Acquired hands-on experience in crafting SQL queries'
     ],
   },
