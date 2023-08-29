@@ -105,10 +105,9 @@ const projects = [
         name: 'PostgreSQL',
         color: 'blue-text-gradient',
       },
-
     ],
     image: ishop,
-    web_link: 'http://3.17.10.48/docs',
+    web_link: 'http://13.59.235.114/docs',
     github_link: 'https://github.com/michaelxswe/ishop',
   },
   {
