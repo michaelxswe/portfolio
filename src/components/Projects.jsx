@@ -49,7 +49,7 @@ const ProjectCard = ({
           ))}
           <span
             onClick={() => window.open(github_link, '_blank')}
-            className='ml-auto cursor-pointer text-[14px]'>
+            className='ml-auto cursor-pointer text-[18px]'>
             GitHub
           </span>
         </div>

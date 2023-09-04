@@ -107,7 +107,7 @@ const projects = [
       },
     ],
     image: ishop,
-    web_link: 'http://13.59.235.114/docs',
+    web_link: 'http://3.15.183.9/docs',
     github_link: 'https://github.com/michaelxswe/ishop',
   },
   {
