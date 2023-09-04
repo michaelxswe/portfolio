@@ -50,48 +50,52 @@ const interests = [
 const experiences = [
   {
     title: 'Software Engineer Intern',
-    company_name: 'Symetra',
+    company_name: 'Symetra | Bellevue, WA',
     icon: time,
     iconBg: '#383E56',
     date: 'May 2023 - August 2023',
     points: [
-      'Designed and implemented REST API leveraging FastAPI',
+      'Leveraged FastAPI to design and deploy a RESTful API that centralized administrative tasks for mortgage bankers',
       'Performed unit, integration, and Cucumber testing to ensure application quality',
       'Leveraged Docker Containers to ensure environment compatibility',
       'Created AWS CloudFormation templates for streamlined deployments to AWS Fargate',
       'Orchestrated Azure CI/CD pipelines, enhancing the agility and efficiency of development and deployment cycles',
+      'Collaborated in a Scrum environment, effectively communicating daily updates during stand-ups',
     ],
   },
   {
     title: 'Software Engineer Intern',
-    company_name: 'Lockheed Martin',
+    company_name:
+      'NASA Space Grant intern hosted by Lockheed Martin | Owego, NY',
     icon: time,
     iconBg: '#383E56',
     date: 'Jun 2022 - Aug 2022',
     points: [
-      'Collaborated in the development of a frontend for a Project Management System utilizing React and Bootstrap',
-      'Developed a backend for a Project Management System leveraging Spring Boot and MySQL database',
-      'Acquired hands-on experience in crafting SQL queries'
+      'Collaborated with other interns and Lockheed Martin engineers to create a remote operated water filtering system',
+      "Led the design and implementation of the system's water pumping and filtration mechanisms",
+      'Designed and developed a full-stack project management app, supported features include project creation, team assignment, and project progress tracking',
+      "Delivered a formal presentation of the project's outcomes and milestones to Lockheed Martin leadership team",
     ],
   },
   {
-    title: 'Course Assistant',
-    company_name: 'Binghamton University',
+    title: 'Math Tutor',
+    company_name:
+      'NASA Space Grant intern hosted by Lockheed Martin | Forest Hill, NY',
     icon: time,
     iconBg: '#383E56',
-    date: 'Aug 2021 - Dec 2021',
+    date: 'Dec 2020 - Feb 2021',
     points: [
-      'Served as a resource for students taking the course - Data Structures and Algorithms',
-      'Hold weekly in-person office hours to address any questions students may have about the course',
+      'Utilized clear and concise communication techniques to simplify complex algebraic concepts for students of varying skill levels',
+      'Effectively communicated with parents provide updates on student progress, including areas for improvement and recommended action plans',
     ],
-  }
+  },
 ]
 
 const projects = [
   {
-    name: 'ishop Backend API',
+    name: 'Shopify Clone Backend',
     description:
-      'Backend API for a shopping website. Utilizing FastAPI and SQLAlchemy as the ORM to enable seamless CRUD operations with a PostgreSQL database',
+      'Backend API for a shopping website. Supporting features includes user registration, secure sign-in, order submission, and access to order history.',
     tags: [
       {
         name: 'FastAPI',
@@ -107,7 +111,7 @@ const projects = [
       },
     ],
     image: ishop,
-    web_link: 'http://13.59.235.114/docs',
+    web_link: 'http://3.15.183.9/docs',
     github_link: 'https://github.com/michaelxswe/ishop',
   },
   {
