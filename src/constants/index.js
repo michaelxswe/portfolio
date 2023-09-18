@@ -85,7 +85,7 @@ const experiences = [
     iconBg: '#383E56',
     date: 'Dec 2020 - Feb 2021',
     points: [
-      'Utilized clear and concise communication techniques to simplify complex algebraic concepts for students of varying skill levels',
+      'Utilized clear and concise communication techniques to simplify complex algebraic concepts for students of varying skill levelsx',
       'Effectively communicated with parents provide updates on student progress, including areas for improvement and recommended action plans',
     ],
   },
