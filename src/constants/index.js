@@ -80,7 +80,7 @@ const experiences = [
   {
     title: 'Math Tutor',
     company_name:
-      'NASA Space Grant intern hosted by Lockheed Martin | Forest Hill, NY',
+      'NASA Space Grant intern hosted by Lockheed Martin | Queens, NY',
     icon: time,
     iconBg: '#383E56',
     date: 'Dec 2020 - Feb 2021',
