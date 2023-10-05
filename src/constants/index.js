@@ -11,8 +11,8 @@ import {
 
 export const navLinks = [
   {
-    id: 'about',
-    title: 'About',
+    id: 'skills',
+    title: 'Skills',
   },
   {
     id: 'experience',
@@ -30,19 +30,19 @@ export const navLinks = [
 
 const interests = [
   {
-    title: 'Frontend Developer',
+    title: ['Python', 'Java', 'Typescript', 'C++', 'C'],
     icon: web,
   },
   {
-    title: 'Backend Developer',
+    title: ['React', 'FastAPI', 'Spring Boot', 'Express'],
     icon: backend,
   },
   {
-    title: 'Data Engineer',
+    title: ['PostgreSQL', 'MySQL', 'MongoDB'],
     icon: database,
   },
   {
-    title: 'Data Analyst',
+    title: ['AWS', 'Azure Pipeline'],
     icon: graph,
   },
 ]
@@ -55,11 +55,10 @@ const experiences = [
     iconBg: '#383E56',
     date: 'May 2023 - August 2023',
     points: [
-      'Leveraged FastAPI to design and deploy a RESTful API that centralized administrative tasks for mortgage bankers',
-      'Performed unit, integration, and Cucumber testing to ensure application quality',
-      'Leveraged Docker Containers to ensure environment compatibility',
-      'Created AWS CloudFormation templates for streamlined deployments to AWS Fargate',
-      'Orchestrated Azure CI/CD pipelines, enhancing the agility and efficiency of development and deployment cycles',
+      'Utilized FastAPI to create the backend for an administrative dashboard',
+      'Performed unit, integration, and Cucumber testing',
+      'Managed data manipulation tasks by updating and retrieving information from a PostgreSQL database',
+      'Leveraged Docker Containers, AWS CloudFormation, and Azure CI/CD pipelines for streamlined deployments to AWS Fargate',
       'Collaborated in a Scrum environment, effectively communicating daily updates during stand-ups',
     ],
   },
@@ -71,10 +70,8 @@ const experiences = [
     iconBg: '#383E56',
     date: 'Jun 2022 - Aug 2022',
     points: [
-      'Collaborated with other interns and Lockheed Martin engineers to create a remote operated water filtering system',
-      "Led the design and implementation of the system's water pumping and filtration mechanisms",
+      'Collaborated with Lockheed Martin engineers to create a remote operated water filtering system',
       'Designed and developed a full-stack project management app, supported features include project creation, team assignment, and project progress tracking',
-      "Delivered a formal presentation of the project's outcomes and milestones to Lockheed Martin leadership team",
     ],
   },
   {
@@ -83,17 +80,17 @@ const experiences = [
       'NASA Space Grant intern hosted by Lockheed Martin | Queens, NY',
     icon: time,
     iconBg: '#383E56',
-    date: 'Dec 2020 - Feb 2021',
+    date: 'Nov 2019 - Feb 2020',
     points: [
       'Utilized clear and concise communication techniques to simplify complex algebraic concepts for students of varying skill levels',
-      'Effectively communicated with parents provide updates on student progress, including areas for improvement and recommended action plans',
+      'Provide updates on student progress, including areas for improvement and recommended action plans',
     ],
   },
 ]
 
 const projects = [
   {
-    name: 'Shopify Clone Backend',
+    name: 'Shopify Backend Clone',
     description:
       'Backend API for a shopping website. Supporting features includes user registration, secure sign-in, order submission, and access to order history.',
     tags: [
@@ -142,7 +139,7 @@ const projects = [
     github_link: 'https://github.com/michaelxswe/openai-image-generator',
   },
   {
-    name: 'Cryptocurrency',
+    name: 'Cryptocurrency Finder',
     description:
       'A web application for accessing up-to-date pricing data for a broad range of cryptocurrencies through integration with CoinGecko API',
     tags: [
