@@ -1,8 +1,4 @@
 import { 
-  web,
-  backend,
-  database,
-  graph,
   time,
   generator,
   crypto,
@@ -31,19 +27,18 @@ export const navLinks = [
 const interests = [
   {
     title: ['Python', 'Java', 'Typescript', 'C++', 'C'],
-    icon: web,
   },
   {
     title: ['React', 'FastAPI', 'Spring Boot', 'Express'],
-    icon: backend,
+
   },
   {
     title: ['PostgreSQL', 'MySQL', 'MongoDB'],
-    icon: database,
+
   },
   {
     title: ['AWS', 'Azure Pipeline'],
-    icon: graph,
+
   },
 ]
 
