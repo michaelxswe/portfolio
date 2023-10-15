@@ -19,7 +19,6 @@ import { fadeIn, textVariant } from '../utils/motion'
                 {t}
               </h3>
             ))}
- 
         </div>
       </motion.div>
     </Tilt>
@@ -30,7 +29,7 @@ const Skills = () => {
   return (
     <>
       <motion.div variants={textVariant()}>
-        <h2 className={styles.sectionHeadText}>Skills</h2>
+        <h2 className={styles.sectionHeadText}>Technical Skills</h2>
       </motion.div>
 
       <motion.p

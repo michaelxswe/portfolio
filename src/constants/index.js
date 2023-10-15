@@ -8,7 +8,7 @@ import {
 export const navLinks = [
   {
     id: 'skills',
-    title: 'Skills',
+    title: 'Technical Skills',
   },
   {
     id: 'experience',
