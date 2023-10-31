@@ -2,7 +2,7 @@ import {
   time,
   generator,
   crypto,
-  ishop
+  tasktracker
 } from '../assets/index';
 
 export const navLinks = [
@@ -29,7 +29,7 @@ const interests = [
     title: ['Python', 'Java', 'Typescript', 'C++', 'C'],
   },
   {
-    title: ['React', 'FastAPI', 'Spring Boot', 'Express'],
+    title: ['NextJS', 'React', 'FastAPI', 'Spring Boot', 'Express'],
 
   },
   {
@@ -50,11 +50,11 @@ const experiences = [
     iconBg: '#383E56',
     date: 'May 2023 - August 2023',
     points: [
-      'Utilized FastAPI to create the backend for an administrative dashboard',
-      'Performed unit, integration, and Cucumber testing',
-      'Managed data manipulation tasks by updating and retrieving information from a PostgreSQL database',
-      'Leveraged Docker Containers, AWS CloudFormation, and Azure CI/CD pipelines for streamlined deployments to AWS Fargate',
-      'Collaborated in a Scrum environment, effectively communicating daily updates during stand-ups',
+      'Utilized FastAPI to create the backend for an administrative dashboard.',
+      'Performed unit, integration, and Cucumber testing.',
+      'Managed data manipulation tasks by updating and retrieving information from a PostgreSQL database.',
+      'Leveraged Docker Containers, AWS CloudFormation, and Azure CI/CD pipelines for streamlined deployments to AWS Fargate.',
+      'Collaborated in a Scrum environment, effectively communicating daily updates during stand-ups.',
     ],
   },
   {
@@ -65,46 +65,39 @@ const experiences = [
     iconBg: '#383E56',
     date: 'Jun 2022 - Aug 2022',
     points: [
-      'Collaborated with Lockheed Martin engineers to create a remote operated water filtering system',
-      'Designed and developed a full-stack project management app, supported features include project creation, team assignment, and project progress tracking',
-    ],
-  },
-  {
-    title: 'Math Tutor',
-    company_name:
-      'NASA Space Grant intern hosted by Lockheed Martin | Queens, NY',
-    icon: time,
-    iconBg: '#383E56',
-    date: 'Nov 2019 - Feb 2020',
-    points: [
-      'Utilized clear and concise communication techniques to simplify complex algebraic concepts for students of varying skill levels',
-      'Provide updates on student progress, including areas for improvement and recommended action plans',
+      'Collaborated with Lockheed Martin engineers on the development of a remote-controlled water filtering system.',
+      'Created a full-stack project management application with features such as project creation, team assignments, and progress tracking.',
+      'Implemented unit tests to validate individual components of the project management application to ensure its functionalities.',
     ],
   },
 ]
 
 const projects = [
   {
-    name: 'Shopify Backend Clone',
+    name: 'TaskFlow Manager',
     description:
-      'Backend API for a shopping website. Supporting features includes user registration, secure sign-in, order submission, and access to order history.',
+      'A task tracker with full CRUD functionality for effective team and project management, incorporating multi-dimensional sorting, filtering, and search capabilities.',
     tags: [
       {
-        name: 'FastAPI',
-        color: 'green-text-gradient',
+        name: 'NextJS',
+        color: 'white-text-gradient',
       },
       {
-        name: 'SQLAlchemy',
-        color: 'pink-text-gradient',
+        name: 'Radix Ui',
+        color: 'white-text-gradient',
       },
       {
         name: 'PostgreSQL',
         color: 'blue-text-gradient',
       },
+      {
+        name: 'Prisma',
+        color: 'white-text-gradient',
+      },
     ],
-    image: ishop,
-    web_link: 'http://3.15.183.9/docs',
-    github_link: 'https://github.com/michaelxswe/ishop',
+    image: tasktracker,
+    web_link: 'https://task-tracker-self.vercel.app/',
+    github_link: 'https://github.com/michaelxswe/task-tracker',
   },
   {
     name: 'OpenAI Image Generator',
@@ -141,11 +134,6 @@ const projects = [
       {
         name: 'React',
         color: 'blue-text-gradient',
-      },
-
-      {
-        name: 'API',
-        color: 'yellow-text-gradient',
       },
     ],
     image: crypto,

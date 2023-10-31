@@ -24,7 +24,6 @@ import { fadeIn, textVariant } from '../utils/motion'
     </Tilt>
   )
 
-
 const Skills = () => {
   return (
     <>
