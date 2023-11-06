@@ -1,8 +1,7 @@
 import { 
   time,
-  generator,
-  crypto,
-  tasktracker
+  tasktracker,
+  ishop
 } from '../assets/index';
 
 export const navLinks = [
@@ -66,7 +65,7 @@ const experiences = [
     date: 'Jun 2022 - Aug 2022',
     points: [
       'Collaborated with Lockheed Martin engineers on the development of a remote-controlled water filtering system.',
-      'Created a full-stack project management application with features such as project creation, team assignments, and progress tracking.',
+      'Created a full-stack project management application with features such as task assignment, progress tracking, deadline reminders, team collaboration tools, and comprehensive reporting dashboards.',
       'Implemented unit tests to validate individual components of the project management application to ensure its functionalities.',
     ],
   },
@@ -88,7 +87,7 @@ const projects = [
       },
       {
         name: 'PostgreSQL',
-        color: 'blue-text-gradient',
+        color: 'white-text-gradient',
       },
       {
         name: 'Prisma',
@@ -96,49 +95,39 @@ const projects = [
       },
     ],
     image: tasktracker,
-    web_link: 'https://task-tracker-self.vercel.app/',
+    web_link: 'https://task-tracker-self.vercel.app',
     github_link: 'https://github.com/michaelxswe/task-tracker',
   },
   {
-    name: 'OpenAI Image Generator',
+    name: 'Shopping App Backend',
     description:
-      'A full stack application that utilizes OpenAI API to generate AI Images based on user prompts. Featuring creating and posting your favorit images',
+      'A complete backend API for a shopping app, featuring user registration, secure login via JWT, error logging, cart management, and order processing with historical tracking.',
     tags: [
       {
-        name: 'MongoDB',
-        color: 'green-text-gradient',
+        name: 'FastAPI',
+        color: 'white-text-gradient',
       },
       {
-        name: 'Express',
-        color: 'orange-text-gradient',
+        name: 'SQLAlchemy',
+        color: 'white-text-gradient',
       },
       {
-        name: 'React',
-        color: 'blue-text-gradient',
+        name: 'PostgreSQL',
+        color: 'white-text-gradient',
       },
 
       {
-        name: 'Node',
-        color: 'pink-text-gradient',
+        name: 'AWS Fargate',
+        color: 'white-text-gradient',
       },
-    ],
-    image: generator,
-    web_link: 'https://openai-image-generator-mx.netlify.app',
-    github_link: 'https://github.com/michaelxswe/openai-image-generator',
-  },
-  {
-    name: 'Cryptocurrency Finder',
-    description:
-      'A web application for accessing up-to-date pricing data for a broad range of cryptocurrencies through integration with CoinGecko API',
-    tags: [
       {
-        name: 'React',
-        color: 'blue-text-gradient',
+        name: 'Docker',
+        color: 'white-text-gradient',
       },
     ],
-    image: crypto,
-    web_link: 'https://cryptocurrency-mx.netlify.app',
-    github_link: 'https://github.com/michaelxswe/cryptocurrency',
+    image: ishop,
+    web_link: 'http://18.119.129.40/docs',
+    github_link: 'https://github.com/michaelxswe/ishop',
   },
 ]
 
