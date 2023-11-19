@@ -18,7 +18,6 @@ const Contact = () => {
           className='mt-3 text-white font-bold text-[17px] max-w-3xl leading-[30px]'>
           <div>Email: michaelxiazzz@gmail.com</div>
           <div>LinkedIn: linkedin.com/in/michaelxiazzz</div>
-          <div>GitHub: github.com/michaelxswe</div>
         </motion.p>
       </div>
     </>

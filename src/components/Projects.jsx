@@ -50,7 +50,7 @@ const ProjectCard = ({
         </div>
         <div
           onClick={() => window.open(github_link, '_blank')}
-          className='flex justify-end cursor-pointer text-[18px'>
+          className='flex justify-end cursor-pointer text-[18px] text-white'>
           GitHub
         </div>
       </Tilt>
