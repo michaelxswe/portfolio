@@ -1,11 +1,11 @@
 
 import time from './time.png'
-import tasktracker from './tasktracker.png'
-import ishop from './ishop.png'
+import tasktracker from './tasktracker.jpg'
+import zelle from './zelle.png'
 
 
 export {
   time,
   tasktracker,
-  ishop
+  zelle
 }

@@ -1,4 +1,4 @@
-import { ishop, tasktracker, time } from '../assets/index'
+import { tasktracker, time, zelle } from '../assets/index'
 
 export const navLinks = [
   {
@@ -19,18 +19,22 @@ export const navLinks = [
   },
 ]
 
-const interests = [
+const skills = [
   {
-    title: ['Python', 'Java', 'Typescript', 'C++', 'C'],
+    title: 'Language',
+    list: ['Python', 'Javascript', 'Java', 'C++'],
   },
   {
-    title: ['NextJS', 'React', 'FastAPI', 'Spring Boot', 'Express'],
+    title: 'Framework',
+    list: ['NextJS', 'FastAPI', 'Spring Boot', 'Express'],
   },
   {
-    title: ['PostgreSQL', 'MySQL', 'MongoDB'],
+    title: 'Database',
+    list: ['PostgreSQL', 'MySQL', 'MongoDB'],
   },
   {
-    title: ['Amazon Web Services', 'Azure Pipeline'],
+    title: 'AWS',
+    list: ['Elastic Container Service'],
   },
 ]
 
@@ -44,9 +48,9 @@ const experiences = [
     points: [
       'Developed a RESTful API that supports user authentication, plan enrollment, and notification services.',
       'Conducted Pytest and Cucumber Test to ensure application functionality and reliability.',
-      'Managed data manipulation tasks by updating and retrieving information from a PostgreSQL database.',
-      'Leveraged Docker Containers, AWS CloudFormation, and Azure Pipelines for automatic deployments to AWS Elastic Container Service (Fargate).',
-      'Collaborated in a Scrum environment, effectively communicating daily updates during stand-ups.',
+      'Developed proficiency in PostgreSQL by designing and implementing efficient backend queries.',
+      'Leveraged Docker Container, AWS CloudFormation, and Azure Pipeline for automatic deployments to AWS Elastic Container Service.',
+      'Collaborated in a Scrum environment, engaged in pull requests and code reviews.',
     ],
   },
   {
@@ -59,6 +63,7 @@ const experiences = [
     points: [
       'Collaborated with Lockheed Martin engineers on the development of a remote-controlled water filtering system.',
       'Created a full-stack project management application with features such as task assignment, progress tracking, deadline reminders, and a comprehensive reporting dashboard.',
+      'Gained proficiency in MySQL by designing schemas and queries.',
       'Conducted JUnit Test to ensure application functionality and reliability.',
     ],
   },
@@ -100,9 +105,9 @@ const projects = [
     github_link: 'https://github.com/michaelxswe/task-tracker',
   },
   {
-    name: 'Shopping App Backend',
+    name: 'Zelle Clone Backend',
     description:
-      'A complete RESTful API for a shopping app deployed onto AWS ECS.',
+      'A complete RESTful API for a zelle clone deployed onto AWS ECS.',
     tags: [
       {
         name: 'Python',
@@ -126,14 +131,14 @@ const projects = [
         color: 'white-text-gradient',
       },
       {
-        name: 'AWS ECS(Fargate)',
+        name: 'AWS ECS',
         color: 'white-text-gradient',
       },
     ],
-    image: ishop,
-    web_link: 'http://18.119.129.40/docs',
-    github_link: 'https://github.com/michaelxswe/ishop',
+    image: zelle,
+    web_link: 'http://18.117.107.32/docs',
+    github_link: 'https://github.com/michaelxswe/zelle',
   },
 ]
 
-export { experiences, interests, projects }
+export { experiences, projects, skills }
