@@ -1,22 +1,21 @@
-import Earth from './Earth'
-import Stars from './Stars'
-import Home from './Home'
-import Navbar from './Navbar'
-import Skills from './Skills'
-import Experience from './Experience'
-import Projects from './Projects'
 import Contact from './Contact'
+import Earth from './Earth'
+import Experience from './Experience'
+import Home from './Home'
 import Loader from './Loader'
-
+import Navbar from './Navbar'
+import Projects from './Projects'
+import Skills from './Skills'
+import Stars from './Stars'
 
 export {
-  Home,
-  Navbar,
-  Skills,
-  Experience,
-  Projects,
   Contact,
+  Earth,
+  Experience,
+  Home,
   Loader,
-  Earth, 
-  Stars
+  Navbar,
+  Projects,
+  Skills,
+  Stars,
 }

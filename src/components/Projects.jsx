@@ -1,10 +1,10 @@
-import React from 'react';
-import Tilt from 'react-parallax-tilt';
-import { motion } from 'framer-motion';
-import { styles } from '../styles';
-import SectionWrapper from '../hoc/SectionWrapper';
-import { projects } from '../constants/index';
-import { fadeIn, textVariant } from '../utils/motion';
+import { motion } from 'framer-motion'
+import React from 'react'
+import Tilt from 'react-parallax-tilt'
+import { projects } from '../constants/index'
+import SectionWrapper from '../hoc/SectionWrapper'
+import { styles } from '../styles'
+import { fadeIn, textVariant } from '../utils/motion'
 
 const ProjectCard = ({
   index,
@@ -13,7 +13,7 @@ const ProjectCard = ({
   tags,
   image,
   web_link,
-  github_link
+  github_link,
 }) => {
   return (
     <motion.div variants={fadeIn('up', 'spring', index * 0.5, 0.75)}>
@@ -56,7 +56,7 @@ const ProjectCard = ({
       </Tilt>
     </motion.div>
   )
-};
+}
 
 const Projects = () => {
   return (
@@ -71,7 +71,7 @@ const Projects = () => {
         ))}
       </div>
     </>
-  );
-};
+  )
+}
 
-export default SectionWrapper(Projects, 'projects');
+export default SectionWrapper(Projects, 'projects')

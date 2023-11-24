@@ -1,9 +1,8 @@
-import React from 'react';
-import SectionWrapper from '../hoc/SectionWrapper';
-import { motion } from 'framer-motion';
-import { styles } from '../styles';
-import { fadeIn, textVariant } from '../utils/motion';
-
+import { motion } from 'framer-motion'
+import React from 'react'
+import SectionWrapper from '../hoc/SectionWrapper'
+import { styles } from '../styles'
+import { fadeIn, textVariant } from '../utils/motion'
 
 const Contact = () => {
   return (
@@ -22,6 +21,6 @@ const Contact = () => {
       </div>
     </>
   )
-};
+}
 
-export default SectionWrapper(Contact, 'contact');
+export default SectionWrapper(Contact, 'contact')

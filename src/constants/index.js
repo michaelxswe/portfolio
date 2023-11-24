@@ -1,8 +1,4 @@
-import { 
-  time,
-  tasktracker,
-  ishop
-} from '../assets/index';
+import { ishop, tasktracker, time } from '../assets/index'
 
 export const navLinks = [
   {
@@ -16,7 +12,7 @@ export const navLinks = [
   {
     id: 'projects',
     title: 'Projects',
-  },  
+  },
   {
     id: 'contact',
     title: 'Contact',
@@ -29,15 +25,12 @@ const interests = [
   },
   {
     title: ['NextJS', 'React', 'FastAPI', 'Spring Boot', 'Express'],
-
   },
   {
     title: ['PostgreSQL', 'MySQL', 'MongoDB'],
-
   },
   {
     title: ['Amazon Web Services', 'Azure Pipeline'],
-
   },
 ]
 
@@ -49,7 +42,7 @@ const experiences = [
     iconBg: '#383E56',
     date: 'May 2023 - August 2023',
     points: [
-      'Developed a Restful API that supports user authentication, plan enrollment, and notification services.',
+      'Developed a RESTful API that supports user authentication, plan enrollment, and notification services.',
       'Conducted Pytest and Cucumber Test to ensure application functionality and reliability.',
       'Managed data manipulation tasks by updating and retrieving information from a PostgreSQL database.',
       'Leveraged Docker Containers, AWS CloudFormation, and Azure Pipelines for automatic deployments to AWS Elastic Container Service (Fargate).',
@@ -58,7 +51,8 @@ const experiences = [
   },
   {
     title: 'Software Engineer Intern',
-    company_name:'NASA Space Grant intern hosted by Lockheed Martin | Owego, NY',
+    company_name:
+      'NASA Space Grant intern hosted by Lockheed Martin | Owego, NY',
     icon: time,
     iconBg: '#383E56',
     date: 'Jun 2022 - Aug 2022',
@@ -100,7 +94,6 @@ const projects = [
         name: 'PostgreSQL',
         color: 'white-text-gradient',
       },
-      
     ],
     image: tasktracker,
     web_link: 'https://task-tracker-self.vercel.app',
@@ -109,7 +102,7 @@ const projects = [
   {
     name: 'Shopping App Backend',
     description:
-      'A complete Restful API for a shopping app deployed onto AWS ECS.',
+      'A complete RESTful API for a shopping app deployed onto AWS ECS.',
     tags: [
       {
         name: 'Python',
@@ -135,7 +128,7 @@ const projects = [
       {
         name: 'AWS ECS(Fargate)',
         color: 'white-text-gradient',
-      }
+      },
     ],
     image: ishop,
     web_link: 'http://18.119.129.40/docs',
@@ -143,4 +136,4 @@ const projects = [
   },
 ]
 
-export { interests, experiences, projects };
+export { experiences, interests, projects }

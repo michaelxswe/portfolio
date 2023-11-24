@@ -1,12 +1,12 @@
 import { BrowserRouter } from 'react-router-dom'
 
 import {
-  Skills,
   Contact,
   Experience,
   Home,
   Navbar,
   Projects,
+  Skills,
   Stars,
 } from './components/index'
 
