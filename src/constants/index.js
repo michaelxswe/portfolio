@@ -73,7 +73,7 @@ const projects = [
   {
     name: 'TaskFlow Manager',
     description:
-      'A comprehensive task tracker, enabling robust task and team management.',
+      'A cross team compatible task tracker',
     tags: [
       {
         name: 'Typescript',
@@ -88,7 +88,7 @@ const projects = [
         color: 'white-text-gradient',
       },
       {
-        name: 'Tailwind',
+        name: 'Tailwind CSS',
         color: 'white-text-gradient',
       },
       {
@@ -107,7 +107,7 @@ const projects = [
   {
     name: 'Zelle Clone Backend',
     description:
-      'A complete RESTful API for a zelle clone deployed onto AWS ECS.',
+      'A RESTful API for a Zelle clone',
     tags: [
       {
         name: 'Python',
