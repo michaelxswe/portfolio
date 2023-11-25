@@ -48,7 +48,7 @@ const experiences = [
     points: [
       'Developed a RESTful API that supports user authentication, plan enrollment, and notification services.',
       'Conducted Pytest and Cucumber Test to ensure application functionality and reliability.',
-      'Developed proficiency in PostgreSQL by designing and implementing efficient backend queries.',
+      'Developed proficiency in PostgreSQL by formulating efficient queries.',
       'Leveraged Docker Container, AWS CloudFormation, and Azure Pipeline for automatic deployments to AWS Elastic Container Service.',
       'Collaborated in a Scrum environment, engaged in pull requests and code reviews.',
     ],
@@ -61,10 +61,10 @@ const experiences = [
     iconBg: '#383E56',
     date: 'Jun 2022 - Aug 2022',
     points: [
-      'Collaborated with Lockheed Martin engineers on the development of a remote-controlled water filtering system.',
-      'Created a full-stack project management application with features such as task assignment, progress tracking, deadline reminders, and a comprehensive reporting dashboard.',
-      'Gained proficiency in MySQL by designing schemas and queries.',
-      'Conducted JUnit Test to ensure application functionality and reliability.',
+      'Collaborated with Lockheed Martin engineers on the development of a water filtration system.',
+      'Implemented features for detecting collisions and water leaks within the system.',
+      'Developed a RESTful API to manage data communication between the Arduino Uno and a MySQL database.',
+      'Gained proficiency in MySQL through the design of database schemas and query formulation.',
     ],
   },
 ]
