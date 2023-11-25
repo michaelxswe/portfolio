@@ -64,7 +64,7 @@ const experiences = [
       'Collaborated with Lockheed Martin engineers on the development of a water filtration system.',
       'Implemented features for detecting collisions and water leaks within the system.',
       'Developed a RESTful API that transfers data collected by Arduino Uno to a MySQL database.',
-      'Gained proficiency in MySQL through design of database schemas and query formulation.',
+      'Gained proficiency in MySQL through schemas design and query formulation.',
     ],
   },
 ]
