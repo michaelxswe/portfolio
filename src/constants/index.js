@@ -47,10 +47,9 @@ const experiences = [
     date: 'May 2023 - August 2023',
     points: [
       'Developed a RESTful API that supports user authentication, plan enrollment, and notification services.',
-      'Conducted Pytest and Cucumber Test to ensure application functionality and reliability.',
-      'Developed proficiency in PostgreSQL by formulating efficient queries.',
-      'Leveraged Docker Container, AWS CloudFormation, and Azure Pipeline for automatic deployments to AWS Elastic Container Service.',
-      'Collaborated in a Scrum environment, engaged in pull requests and code reviews.',
+      'Conducted unit tests, integration tests, and performance tests.',
+      'Leveraged Docker, AWS CloudFormation, and Azure Pipeline for automatic testing and deployment.',
+      'Collaborated in a Scrum and Agile methodology environment, actively participating in pull requests and code reviews'
     ],
   },
   {
@@ -73,7 +72,7 @@ const projects = [
   {
     name: 'TaskFlow Manager',
     description:
-      'A cross team compatible task tracker',
+      'A cross-team task tracker',
     tags: [
       {
         name: 'Typescript',
