@@ -55,7 +55,7 @@ const experiences = [
   {
     title: 'Software Engineer Intern',
     company_name:
-      'NASA Space Grant intern hosted by Lockheed Martin | Owego, NY',
+      'NASA New York Space Grant | Owego, NY',
     icon: time,
     iconBg: '#383E56',
     date: 'Jun 2022 - Aug 2022',
