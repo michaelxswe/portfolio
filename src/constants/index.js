@@ -21,21 +21,21 @@ export const navLinks = [
 
 const skills = [
   {
-    title: "Language",
+    title: "Languages",
     list: ["Python", "Javascript", "Java", "C++"],
   },
   {
-    title: "Framework",
+    title: "Frameworks",
     list: ["NextJS", "FastAPI", "Spring Boot", "Express"],
   },
   {
-    title: "Database",
-    list: ["PostgreSQL", "MySQL", "MongoDB"],
+    title: "Libraries",
+    list: ["React", "SQLAlchemy", "Pandas"],
   },
   {
-    title: "AWS",
-    list: ["Elastic Container Service"],
-  },
+    title: "Databases",
+    list: ["PostgreSQL", "MySQL", "MongoDB"],
+  }
 ]
 
 const experiences = [
@@ -46,8 +46,8 @@ const experiences = [
     iconBg: "#383E56",
     date: "May 2023 - August 2023",
     points: [
-      "Developed a RESTful API that supports user authentication, plan enrollment, and notification services.",
-      "Conducted unit tests, integration tests, and performance tests.",
+      "Designed and implemented a RESTful API for a new insurance plan to support customer enrollment processes.",
+      "Conducted unit tests and integration tests.",
       "Leveraged Docker, AWS CloudFormation, and Azure Pipeline for automatic testing and deployment.",
       "Collaborated in a Scrum and Agile methodology environment, actively participating in pull requests and code reviews",
     ],
@@ -69,8 +69,8 @@ const experiences = [
 
 const projects = [
   {
-    name: "TaskFlow Manager",
-    description: "A cross-team task tracker",
+    name: "Task Manager",
+    description: "",
     tags: [
       {
         name: "Typescript",
@@ -102,8 +102,8 @@ const projects = [
     github_link: "https://github.com/michaelxswe/task-tracker",
   },
   {
-    name: "Zelle Clone Backend",
-    description: "A RESTful API for a Zelle clone",
+    name: "Zelle Backend",
+    description: "",
     tags: [
       {
         name: "Python",
@@ -132,7 +132,7 @@ const projects = [
       },
     ],
     image: zelle,
-    web_link: "http://18.117.107.32/docs",
+    web_link: "http://18.219.77.115/docs",
     github_link: "https://github.com/michaelxswe/zelle",
   },
 ]

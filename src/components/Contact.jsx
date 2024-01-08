@@ -15,8 +15,8 @@ const Contact = () => {
         <motion.p
           variants={fadeIn("", "", 0.1, 1)}
           className="mt-3 text-white font-bold text-[17px] max-w-3xl leading-[30px]">
-          <div>Email: michaelxiazzz@gmail.com</div>
-          <div>LinkedIn: linkedin.com/in/michaelxiazzz</div>
+          <div>Email: michaelxia29@gmail.com</div>
+          <div>LinkedIn: linkedin.com/in/michaelxia29</div>
         </motion.p>
       </div>
     </>
