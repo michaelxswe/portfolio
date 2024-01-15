@@ -30,7 +30,7 @@ const skills = [
   },
   {
     title: "Libraries",
-    list: ["React", "SQLAlchemy", "Pandas"],
+    list: ["React", "SQLAlchemy", "Hibernate", "Pandas"],
   },
   {
     title: "Databases",
@@ -47,8 +47,9 @@ const experiences = [
     date: "May 2023 - August 2023",
     points: [
       "Designed and implemented a RESTful API for a new insurance plan to support customer enrollment processes.",
-      "Conducted unit tests and integration tests.",
-      "Leveraged Docker, AWS CloudFormation, and Azure Pipeline for automatic testing and deployment.",
+      "Implemented unit tests and integration tests with more than 90% code coverage.",
+      "Refactored and modularized existing codebase by implementing the factory method pattern and integrating dependency injection, significantly enhancing testability and maintainability.",
+      "Leveraged Aws CloudFormation and Azure Pipeline for automatic testing and deployment.",
       "Collaborated in a Scrum and Agile methodology environment, actively participating in pull requests and code reviews",
     ],
   },
@@ -61,8 +62,7 @@ const experiences = [
     points: [
       "Collaborated with Lockheed Martin engineers on the development of a water filtration system.",
       "Implemented features for detecting collisions and water leaks within the system.",
-      "Developed a RESTful API that transfers data collected by Arduino Uno to a MySQL database.",
-      "Gained proficiency in MySQL through schemas design and query formulation.",
+      "Developed a RESTful API that transfers data collected by Arduino Uno to a MySQL database."
     ],
   },
 ]
@@ -132,7 +132,7 @@ const projects = [
       },
     ],
     image: zelle,
-    web_link: "http://18.219.77.115/docs",
+    web_link: "http://3.147.127.202/docs",
     github_link: "https://github.com/michaelxswe/zelle",
   },
 ]
