@@ -46,7 +46,7 @@ const experiences = [
     iconBg: "#383E56",
     date: "May 2023 - August 2023",
     points: [
-      "Designed and implemented a RESTful API for a new insurance plan, allowing users to register, manage their accounts, and access services.",
+      "Collaborated with front-end developers to implement API integration, user authentication, and database management.",
       "Developed unit and integration tests achieving over 90% code coverage.",
       "Refactored and modularized parts of the existing code base, improving testability and maintainability.",
       "Designed CI/CD pipelines to automate testing and deployment.",
