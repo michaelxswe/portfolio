@@ -1,4 +1,4 @@
-import { tasktracker, time, zelle } from "../assets/index"
+import { tasktracker, time, ecommerce} from "../assets/index"
 
 export const navLinks = [
   {
@@ -34,7 +34,7 @@ const skills = [
   },
   {
     title: "Databases",
-    list: ["PostgreSQL", "MySQL", "MongoDB"],
+    list: ["PostgreSQL", "MySQL", "MongoDB", "Redis"],
   }
 ]
 
@@ -46,11 +46,11 @@ const experiences = [
     iconBg: "#383E56",
     date: "May 2023 - August 2023",
     points: [
-      "Collaborated with front-end developers to implement API integration, user authentication, and database management.",
-      "Developed unit and integration tests achieving over 90% code coverage.",
-      "Refactored and modularized parts of the existing code base, improving testability and maintainability.",
-      "Designed CI/CD pipelines to automate testing and deployment.",
-      "Collaborated in a Scrum and Agile methodology environment, actively participating in pull requests and code reviews",
+      "Contributed to the development and optimization of RESTful APIs in a microservices architecture.",
+      "Designed unit tests and integration tests with more than 90% code coverage.",
+      "Refactored and modularized parts of the existing code base, reduced test files by 1/5 while maintaining code coverage.",
+      "Designed CI/CD pipelines to automate testing and deployment in different environments.",
+      "Created API documentation and specifications.",
     ],
   },
   {
@@ -102,7 +102,7 @@ const projects = [
     github_link: "https://github.com/michaelxswe/task-tracker",
   },
   {
-    name: "Zelle Backend",
+    name: "Ecommerce Backend",
     description: "",
     tags: [
       {
@@ -114,7 +114,7 @@ const projects = [
         color: "white-text-gradient",
       },
       {
-        name: "SQLAlchemy",
+        name: "Redis",
         color: "white-text-gradient",
       },
       {
@@ -131,9 +131,9 @@ const projects = [
         color: "white-text-gradient",
       },
     ],
-    image: zelle,
-    web_link: "http://3.147.127.202/docs",
-    github_link: "https://github.com/michaelxswe/zelle",
+    image: ecommerce,
+    web_link: "http://3.21.76.161/docs",
+    github_link: "https://github.com/michaelxswe/shop-api",
   },
 ]
 

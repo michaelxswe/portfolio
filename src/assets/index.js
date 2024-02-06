@@ -1,5 +1,5 @@
 import time from "./time.png"
 import tasktracker from "./tasktracker.jpg"
-import zelle from "./zelle.png"
+import ecommerce from "./ecommerce.jpg"
 
-export { time, tasktracker, zelle }
+export { time, tasktracker, ecommerce}
