@@ -132,7 +132,7 @@ const projects = [
       },
     ],
     image: ecommerce,
-    web_link: "http://3.131.157.147/docs",
+    web_link: "http://3.16.24.137/docs",
     github_link: "https://github.com/michaelxswe/shop-api",
   },
 ]
