@@ -1,5 +1,5 @@
 import time from "./time.png"
 import tasktracker from "./tasktracker.jpg"
-import ecommerce from "./ecommerce.jpg"
+import devops from "./devops.png"
 
-export { time, tasktracker, ecommerce}
+export { time, tasktracker, devops}

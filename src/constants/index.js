@@ -1,4 +1,4 @@
-import { tasktracker, time, ecommerce} from "../assets/index"
+import { tasktracker, time, devops} from "../assets/index"
 
 export const navLinks = [
   {
@@ -102,7 +102,7 @@ const projects = [
     github_link: "https://github.com/michaelxswe/task-tracker",
   },
   {
-    name: "Ecommerce Backend",
+    name: "CI/CD Pipeline",
     description: "",
     tags: [
       {
@@ -114,26 +114,26 @@ const projects = [
         color: "white-text-gradient",
       },
       {
-        name: "Redis",
+        name: "Testing",
         color: "white-text-gradient",
       },
-      {
-        name: "PostgreSQL",
-        color: "white-text-gradient",
-      },
-
       {
         name: "Docker",
         color: "white-text-gradient",
       },
       {
-        name: "AWS ECS",
+        name: "AWS",
         color: "white-text-gradient",
       },
+
+      {
+        name: "GitHub Action",
+        color: "white-text-gradient",
+      }
     ],
-    image: ecommerce,
-    web_link: "http://3.16.24.137/docs",
-    github_link: "https://github.com/michaelxswe/shop-api",
+    image: devops,
+    web_link: "https://github.com/michaelxswe/fast-api",
+    github_link: "https://github.com/michaelxswe/fast-api",
   },
 ]
 
